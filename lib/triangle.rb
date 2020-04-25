@@ -19,8 +19,8 @@ class Triangle
           :equilateral
     
      elsif 
-      (self.base == self.height1) || (self.height1 == self.height2) || (self.base == self.height2)
-        :isosceles
+          (self.base == self.height1) || (self.height1 == self.height2) || (self.base == self.height2)
+          :isosceles
     elsif
       ((self.base < self.height1) && (self.height1 < self.height2)) || ((self.base > self.height2) && (self.height1 > self.height2))
         :scalene
