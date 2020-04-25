@@ -13,7 +13,7 @@ class Triangle
               raise TriangleError
               rescue TriangleError => error 
               puts error.message
-          end
+              end
       elsif
           (self.base == self.height1)  && (self.height1 == self.height2)
           :equilateral
