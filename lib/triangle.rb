@@ -9,11 +9,8 @@ class Triangle
   
   def kind 
     if ((self.base+self.height1) <= self.height2) || ((self.height1+self.height2) <= self.base) || ((self.base+self.height2) <= self.height1)
-              begin 
+              
               raise TriangleError
-              rescue TriangleError => error 
-              puts error.message
-              end
       elsif
           (self.base == self.height1)  && (self.height1 == self.height2)
           :equilateral
